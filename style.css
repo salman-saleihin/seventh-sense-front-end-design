@@ -1,6 +1,7 @@
 .container {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
+
 
 /* Carousel Design */
 
@@ -9,14 +10,12 @@
 
     background-color: #fceae8;
     border-radius: 10px;
-
-
-
 }
 
 .carousel-item {
 
     padding: 20px 40px;
+    height: 562px;
 
 }
 
@@ -31,5 +30,65 @@
 
 .price {
     color: #FF136F;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: olive;
+}
+
+.cat3 {
+    background-color: blueviolet;
+}
+
+.cat1 , .cat2 , .cat3 {
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.categories h1{
+   color: white;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+       
+    color: gray;
+
 
 }
+
+#subscribe button {
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+
+
+
